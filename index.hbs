@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JobBridge</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <div class="logo">Job<span>Bridge</span></div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Find Jobs</a>
+        <a href="#">Post a Job</a>
+       <a href="/login">Login</a>
+<a href="/signup"><button class="signup">Sign Up</button></a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Connecting You to Your <span>Dream Job</span></h1>
+    <p>Find the best opportunities across various industries.</p>
+
+    <div class="search-box">
+        <form action="/search" method="get">
+            <input type="text" name="title" placeholder="Job title or keyword">
+            <input type="text" name="location" placeholder="Location">
+            <select name="category">
+                <option>Select Category</option>
+                <option>IT</option>
+                <option>Marketing</option>
+                <option>Finance</option>
+            </select>
+           <button type="submit">Search</button>
+        </form>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories">
+    <div>💻 IT & Software</div>
+    <div>📢 Marketing</div>
+    <div>💰 Finance</div>
+    <div>🎨 Design</div>
+</section>
+
+<!-- Jobs Section -->
+<section class="jobs">
+    <div class="featured">
+        <h2>Featured Jobs</h2>
+
+        <div class="job-card">
+            <h3>Software Developer</h3>
+            <p>Bangalore</p>
+           <button type="submit">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Marketing Manager</h3>
+            <p>Mumbai</p>
+          <button type="submit">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Data Analyst</h3>
+            <p>Delhi</p>
+            <button type="submit">Apply Now</button>
+        </div>
+    </div>
+
+    <div class="recent">
+        <h2>Recent Jobs</h2>
+        <p>Graphic Designer - 1 hour ago</p>
+        <p>Sales Executive - 2 hours ago</p>
+        <p>HR Coordinator - 3 hours ago</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <h2>Get Started with JobBridge</h2>
+    <button>Sign Up Now</button>
+    <button class="secondary">Post a Job</button>
+</footer>
+
+</body>
+</html>
